@@ -1,0 +1,21 @@
+# Archivos de configuración de VS Code
+.vscode/
+*.code-workspace
+
+# Archivos del sistema operativo
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Archivos temporales y de compilación
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Archivos de carpetas comunes en proyectos
+node_modules/
+dist/
+out/
+build/
