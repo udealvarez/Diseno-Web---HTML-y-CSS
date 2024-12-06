@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto HTML de Digital House</title>
+
+    <!-- https://github.com/digitalhouse-content/estilos-curso-maquetacion-web/blob/master/tablas.txt -->
+
+    <style>
+        table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Tablas en HTML</h1>
+
+    <!--ATAJO: ALT + SHIFT + ABAJO (copia la linea en la que estas)-->
+
+    <table>
+        <colgroup>
+            <col span="1" style="background-color:rgb(136, 168, 195) ;">    
+        </colgroup>
+        
+        <tr><!--TR table row (FILA)-->
+            <th>Alumnos</th> <!--TH: table  header (NOMBRE COLUMNA)-->
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Notas</th>
+        </tr> 
+        <tr>
+            <th>1</th> 
+            <td>Juan</td> 
+            <td>Rios</td>     <!--TD: table data, (DATOS DE LA TABLA)-->
+            <td>10</td>        
+        </tr>
+        <tr>
+            <th>2</th> 
+            <td>Nicolas</td> 
+            <td>Montero</td>    
+            <td>9</td>         
+        </tr>
+        <tr>
+            <th>3</th> 
+            <td>Melina</td> 
+            <td>Tabor</td>      
+            <td>9</td>       
+        </tr>
+        <tr>
+            <th>4</th> 
+            <td>Facundo</td> 
+            <td>Flores</td>      
+            <td>8</td>       
+        </tr>
+
+    </table>
+
+
+
+
+
+
+
+</body>
+</html>
