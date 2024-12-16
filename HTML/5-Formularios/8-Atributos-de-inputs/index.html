@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto HTML de Digital House</title>
+</head>
+<body>
+    
+    <h1>Formularios - Atributos de inputs</h1>
+
+    <form action="get">
+
+        <label for="name">Escribe un nombre: </label>
+        <input type="name" name="name" id="name" minlength="2" maxlength="5"><br><br> <!--el min/max lenght indica el largo de un input-->
+
+        <label for="number">Ingrese un numero</label>
+        <input type="number" name="number" id="number" min="2" max="5"> <br><br><!--MIN/MAN nos ayuda a poner un rago de numeros para seleccionar-->
+
+        <label for="date">Escribe una fecha entre 1900 y la fecha actual: </label>
+        <input type="date" name="date" id="date" min="1900-01-01" max="2024-12-16"><br><br><!--MIN/MAN nos ayuda a poner un rago de fechas para seleccionar-->
+
+        <label for="range">Seleccione un numero: </label>
+        <input type="range" name="range" id="range" min="2" max="5"><br><br>
+
+        <label for="file">Seleccione un archivo: </label>
+        <input type="file" name="file" id="file" multiple> <!--MULTIPLE te permite subir muchos archivos--> <br><br>
+
+        <label for="code">Escribe el codigo de tu pais: </label>
+        <input type="text" name="code" id="code" pattern="[A-Z]{3}"> <br><br> <!--PATTERN es una manera de hacer REGEX {3} letras en MAYUSCULA-->
+
+        <label for="name">Probando los placeholder</label>
+        <input type="text" name="name" id="name" placeholder="Escribe un nombre"><br><br><br> <!--el PLACEHOLDER es una manera de poner un inputos text lo que esta en "Escribe tu nombre" sin la necesidad de poner un label-->
+
+        <div>
+            <h3>PlaceHolder - required</h3>
+
+            <span></span><input type="text" name="name" id="name" placeholder="Escribe tu nombre"><br>
+            <input type="text" name="lastname" id="lastname" placeholder="Escribe tu apellido"><br>
+            <input type="text" name="job" id="job" placeholder="Escribe tu trabajo"><br>
+
+            <!--REQUIRED nos dice que es necesario que el input text sea requerido antes de enviar-->
+        </div>
+
+        <div>
+            <h3>PlaceHolder - required & autoComplete</h3>
+
+            <input type="text" name="name" id="name" placeholder="Escriba el nombre" required autocomplete="off"><br>
+            <input type="text" name="lastname" id="lastname" placeholder="Escriba el apellido" required autocomplete="off"><br>
+            <input type="text" name="job" id="job" placeholder="Escriba el trabajo" required autocomplete="off"><br><br>
+
+            <!--AUTOCOMPLETE nos da una herramienta para autocompletar campos con datos que ya estan guardados en nuestro navegador como NAME o LASTNAME, podemos desactivarlo con OFF-->
+
+        </div>
+
+        <input type="submit" value="Enviar">
+
+    </form>
+
+</body>
+</html>
