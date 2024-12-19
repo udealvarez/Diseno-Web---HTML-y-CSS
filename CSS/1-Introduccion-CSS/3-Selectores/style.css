@@ -1,0 +1,25 @@
+h1{
+    color:red;
+}
+
+#titulo-principal{
+    color:green;
+}
+
+.rojo{
+    color: chocolate;
+}
+
+p.rojo{
+    text-align:center;
+}
+
+.fondo-verde{
+    background-color:green;
+}
+p, h2, h4{
+    color: darkblue;
+}
+*{/* el ASTERISCO es un SELECTOR UNIVERSAL, al poner el tipo de letra, me engloba a todos los textos de la pagina */
+    font-family: Arial, Helvetica, sans-serif; 
+}
