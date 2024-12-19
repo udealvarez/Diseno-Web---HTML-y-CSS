@@ -1,0 +1,13 @@
+h2{
+    color: rgb(176, 17, 182) /*tocando el cuadrito al lado de RGB puedo elegir a mano el color que quiero*/
+}
+
+H3{
+    color: #25608d;
+    background-color: aqua;
+}
+
+div{
+    width: 500px;
+    height: 50px;
+}
