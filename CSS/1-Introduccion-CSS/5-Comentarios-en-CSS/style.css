@@ -1,0 +1,16 @@
+/*aca se le dara el estilo a todos los titulos*/
+h1{
+    color: blue;
+}
+
+/*esto es un comentario, todo lo que esta dentro de esto es comentario...
+    tambien puede ser multileana*/
+
+
+    
+/*aca se le dara el estilo a todos los parrafos*/
+
+p{
+    background-color: brown;
+    color: white;
+}
