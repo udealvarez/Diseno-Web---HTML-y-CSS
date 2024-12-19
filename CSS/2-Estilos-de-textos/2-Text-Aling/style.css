@@ -1,0 +1,16 @@
+H2{
+    text-align: center;
+}
+h3{
+    text-align: right;
+}
+div{
+    width: 500px;
+    height: 200px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+h4{
+    text-align: center;
+}
