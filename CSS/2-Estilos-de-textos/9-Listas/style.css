@@ -1,0 +1,32 @@
+ul.desordenada{
+    list-style-type: circle ; /*circulo vacio al lado de cada item en la lista*/
+}
+/*tipos de type ----> SQUARE
+si queremos ver todas las opciones podemos hacer CONTROL + ESPACIO y tenemos todos los tipos */
+
+ol.ordenada{
+    list-style-type: decimal-leading-zero; /* distintos tipos con CONTROL + ESPACIO */
+}
+h3{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul.desordenada-img{
+    list-style-image: url(assets/img/icono.png);
+    list-style-position: inside; /*INSIDE permite escribir abajo del item*/
+}
+UL.desordenada-SINimg{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+UL{
+    background: #b84646;
+    padding: 10px 0;
+}
+ul li{
+    background: #c95b5b;
+    padding: 10px;
+    margin: 5px;
+}
