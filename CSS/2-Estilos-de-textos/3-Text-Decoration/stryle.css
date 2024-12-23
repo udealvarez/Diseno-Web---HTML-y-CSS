@@ -1,0 +1,47 @@
+H2{
+    text-align: center;
+}
+h3{
+    text-align: right;
+}
+div{
+    width: 250px;
+    height: 60px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+h4{
+    text-align: center;
+}
+
+.overline{
+    text-decoration: overline;
+    text-decoration-color: red;
+    text-decoration-thickness: 10px; /*grosor de la linea del text decoration*/
+}
+.overline2{
+    text-decoration: overline red 1px; /*una manera de simplificar todo*/
+}
+
+.line-through{
+    text-decoration: line-through;
+    text-decoration-color: green;
+    text-decoration-style: dotted; /* linea punteada*/
+}
+.underline{
+    text-decoration: underline;
+    text-decoration-style: wavy; /*linea en forma de ola de mar*/
+}
+
+/*los estilos que puede tomar son:
+solid
+double
+dotted
+dashed
+wavy */
+
+.mix{
+    text-decoration: underline overline; /*aca combinamos text decorattion*/
+}
