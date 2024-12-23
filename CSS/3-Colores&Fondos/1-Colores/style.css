@@ -1,0 +1,30 @@
+/*Colores */
+/*Colores names: 140 tipos de nombres en CSS*/
+
+h4{
+    color: firebrick;
+    background-color: black;
+}
+
+/*Colores RGB - RED GREEN BLUE*/
+h4{
+    color: rgb(31, 107, 92);
+    background-color: rgba(150, 0, 150, 0.1) /*A es de ALFA --> TRANSPARENCIA*/
+}
+
+
+/*Colores con HEXADECIMAL*/
+h4{
+    color: #ec0404b7;
+    background-color: #2f7b2b9d;
+}
+
+/*Colores con HLS --> basado en como ve el ojo humano */
+h4{
+    color: hsl(9, 100%, 100%, 1);
+    background-color: hsl(246, 75%, 24%);
+}
+
+/*HUE, ANGULO DENTRO DE UN CIRCULO DE COLORES*/
+/*SATURATION*/
+/*LIGHTNESS, BRILLO*/
