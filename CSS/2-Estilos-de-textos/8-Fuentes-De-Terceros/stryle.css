@@ -1,0 +1,14 @@
+div{
+    width: 500px;
+    height: auto;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+p{
+    text-indent: 50px; /*   SANGRIA en el parrafo*/
+    letter-spacing: 1px; /* espacio entre los caracteres del texto */
+    line-height: 1.5; /* esto significa que se agranda un 50% mas de ancho el espacio entre lineas de texto*/
+    word-spacing: 3px; /* espaciado entre palabras, diferente al LETTER SPACING */   
+
+}
