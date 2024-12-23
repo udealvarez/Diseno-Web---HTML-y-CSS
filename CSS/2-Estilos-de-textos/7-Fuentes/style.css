@@ -1,0 +1,59 @@
+div{
+    width: 500px;
+    height: auto;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+p{
+    text-indent: 50px; /*   SANGRIA en el parrafo*/
+    letter-spacing: 1px; /* espacio entre los caracteres del texto */
+    line-height: 1.5; /* esto significa que se agranda un 50% mas de ancho el espacio entre lineas de texto*/
+    word-spacing: 3px; /* espaciado entre palabras, diferente al LETTER SPACING */   
+
+}
+h4{
+    font-size: 50px;
+}
+
+
+.Serif{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Sans-Serif{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Monospace{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Cursive{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Fantasy{
+    font-family: fantasy;
+}
+.style{
+    font-style: italic;
+}
+.style2{
+    font-style: normal;
+}
+.style3{
+    font-style: oblique;
+}
+.weight{
+    font-weight: 500;
+}
+.weight2{
+    font-weight: bold;
+}
+.weight3{
+    font-weight: lighter;
+}
+h3{
+    font: italic small-caps 3vw arial, sans-serif;
+}
