@@ -1,0 +1,18 @@
+
+/*LA MANERA BASICA*/
+
+/*
+body{
+    background-image: url(assets/imgs/nubes.jpg);       podemos tener una img en la carpeta assets y traerla
+    background-repeat: no-repeat;                       para que la img no se repita
+    background-position: right top;                     para que la img quede arriba a la derecha
+    background-attachment: fixed;                       la img queda statica y cuando hacemos scroll la img sigue en su lugar
+    
+}*/
+
+/*LA MANERA MAS CORTA*/
+body{
+    background: #6929b2 url(assets/imgs/nubes.jpg) no-repeat right top fixed;
+    background-size: cover; /*LA IMAGEN OCUPA TODA LA PANTALLA*/
+}
+
