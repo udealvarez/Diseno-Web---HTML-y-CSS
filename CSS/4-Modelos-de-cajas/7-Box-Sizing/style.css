@@ -1,0 +1,8 @@
+div{
+    width: 150px;
+    height: 130px;
+    padding: 12px;
+    border: solid 3px yellow;
+    margin: 15px;
+    box-sizing: border-box;
+}
