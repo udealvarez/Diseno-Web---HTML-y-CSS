@@ -1,0 +1,13 @@
+.max{
+    margin: auto;
+    border: 2px solid black;
+    background-color: azure;
+    max-width: 500px; /*propiedad maxima, aca empieza el RESPOSIVE (se adapta al tamano de la pantalla*/
+}
+
+.width{
+    margin: auto;
+    border: 2px solid black;
+    background-color: azure;
+    width: 500px;
+}
