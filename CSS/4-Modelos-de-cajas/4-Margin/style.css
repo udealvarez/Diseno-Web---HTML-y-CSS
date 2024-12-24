@@ -1,0 +1,24 @@
+div, span{
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.cajita{
+    width: 300px;
+    height: 150px;
+    background-color: red;
+    margin-bottom: 10px; /*Margen del lado de abajo*/
+/*    margin-left: 20px; Margen del lado de izquierdo*/
+margin-right: 30px;
+}
+.cajita2{
+    width: 300px;
+    height: 150px;
+    background-color: blue;
+    margin-top: 10px; /*Margen del lado de arriba*/
+}
+.cajita3{
+    width: 300px;
+    height: 150px;
+    margin: 50px ;
+}
