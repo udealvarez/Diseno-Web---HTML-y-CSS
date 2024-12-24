@@ -1,0 +1,53 @@
+.container{
+    background-color: black;
+    display: flex;
+    justify-content: center; /*centra los items del DISPLAY FLEX*/
+}
+
+.div-rojo{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    display: block;/*por defecto un div es un BLOCK*/
+    border: 1px solid black;
+    padding: 15px;
+    margin: 15px;   
+}
+.div-verde{
+    background-color: green;
+    border: 1px solid black;
+    width:100px;
+    height: 100px;
+    display: block;
+    padding: 15px;
+    margin: 15px;   
+}
+.div-azul{
+    background-color: blue;
+    border: 1px solid black;
+    width:100px;
+    height: 100px;
+    display: block;
+    padding: 15px;
+    margin: 15px;   
+}
+
+.span-rojo{
+    background-color: red;
+    border: 1px solid black;
+    width:100px;
+    height: 100px;
+    display: inline; /*por defecto un span es un INLINE*/
+    padding: 15px;
+    margin: 15px;   
+}
+.span-verde{
+    background-color: green;
+    border: 1px solid black;
+    width:100px;
+    height: 100px;
+    display: inline;
+    padding: 15px;
+    margin: 15px;   
+}
+    
