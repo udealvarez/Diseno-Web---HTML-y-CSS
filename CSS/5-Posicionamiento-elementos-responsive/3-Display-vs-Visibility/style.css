@@ -1,0 +1,7 @@
+.hidden{
+    display: none; /*esto oculta el elemento y hace que desaparezca el espacio respectivo del titulo haciendo acerca el texto al titulo H1*/
+}
+
+.Visibility{
+    visibility: hidden; /*oculta un elemento PERO respeta el espacio del elemento, es decir, oculta pero no acerca el texto al H1 (deja el espacio en blanco)*/
+}
