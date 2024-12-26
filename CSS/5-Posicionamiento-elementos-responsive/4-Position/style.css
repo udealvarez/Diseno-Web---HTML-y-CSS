@@ -1,0 +1,52 @@
+p{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+}
+
+div{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    max-width: 80%;
+}
+
+#relative{
+    position: relative;/* nos permite utilizar distintos atributos de  posicion, por ejemplo TOP, LEFT, RIGHT, para poder movernos dentro de la pagina web*/
+    /*RELATIVE lo que hace es que desde la posicion original mantiene el espacio y mueve el texto con el TOP y LEFT*/
+    top: 15px;
+    left: 15px;
+    color: red;
+    /*mantiente el texto RELATIVO y lo desplaza segun los px que le demos con TOP y LEFT*/
+}
+
+
+#static{
+    position: static;/* no le hace caso NI AL TOP NI AL LEFT*/
+    top: 15px;
+    left: 15px;
+    color: green;
+}
+
+#fixed{
+    position: fixed;/*las coordenadas arrancan en 0:0 desde el margen sup izq, desde ahi se toma el TOP y el LEFT*/
+    top: 0px;
+    left: 0px;
+    color: blue;
+    /* cuando hago scroll el texto sigue al scrol*/   
+    /*si saco el TOP y el LEFT el texto comienza donde tiene que comenzar, pero superponiendo a otro texto y no respeta el ancho del DIV PADRE*/
+}
+
+#absolute{
+    position: absolute;/* cuando hago scroll el texto sigue en su lugar, dif con el fixed*/   
+    top: 15px;
+    left: 15px;
+    color: green;
+}
+
+#sticky{
+    position: sticky;/*es un mix entre RELATIVE & FIXED*/  
+    top: 0px;    
+    color: red;
+    background-color: black;
+}
