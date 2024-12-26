@@ -1,0 +1,28 @@
+.center{
+    border: 1px solid black; 
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;          /*DIV CENTRADO*/
+    width: 200px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: blue;
+}
+
+img{
+    display: block;
+    margin: 50px auto;      /*IMG CENTRADA*/
+    height: 300px;
+}
+
+.float{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;           
+    padding: 10px;
+    width: 200px;
+    float: right;           /*DIV A LA DERECHA - TAMBIEN PODEMOS PONERLO A LA IZQUIERDA*/
+}
