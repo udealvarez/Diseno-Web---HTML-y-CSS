@@ -1,0 +1,61 @@
+/* ESTRUCTURA DE PSEUDOCLASE
+
+SELECTOR:PSEUDOCLASE{
+    PROPIEDAD: VALOR;
+    }
+
+*/
+
+a:link{
+    color: chocolate;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+a:hover{
+    background-color: aqua;
+}
+
+a:active{
+    color: blue;
+}
+
+a.especial:hover{
+    background-color: black;
+    color: white;
+}
+
+
+button:hover{
+    background-color: aqua;
+}
+
+p:first-child{ /*aca solo toma el primer parrafo del div ya que es su primer hijo*/
+    color: blueviolet;
+}
+
+b:first-child{ /*aca solo marca el primer hijo del B, en este caso solo toma el primer B del parrafo*/
+    color: brown;
+}
+
+input:focus{
+    background-color: aqua; /*cuando hago click en el input se pone de color aqua*/
+}
+
+input:required{
+    background-color:blueviolet; /**/
+}
+
+input:invalid{
+    background-color:red; /*para un campo REQUERIDO*/
+    border: 1px solid red;
+}
+
+input:valid{
+  
+    border: 3px solid green;
+}
+
+
