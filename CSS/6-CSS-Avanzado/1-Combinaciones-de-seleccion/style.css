@@ -1,0 +1,16 @@
+/*div p{                             ACA MARCA TODA LA DESCENDENCIA -- HIJO Y NIETOS
+    background-color: aquamarine;    ESTE ES PARA EL PRIMER DIV
+}
+
+div>p{
+    background-color: aquamarine;    /*aca solo los hijos tienen color, el nieto no
+}
+
+div+p{
+    background-color: aquamarine;    /*aca solo los adyacentes tienen color
+} */
+
+
+div~p{
+    background-color: aquamarine;    /*aca solo los hijos tienen color, el nieto no*/
+}

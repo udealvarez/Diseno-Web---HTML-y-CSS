@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto CSS de Digital House</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Combinadores de seleccion</h1>
+
+    <h4>Selector Descendiente</h4>
+
+    <p>Esto es un parrafo</p>
+
+    <div><!--ACA MARCA TODA LA DESCENDENCIA -- HIJO Y NIETOS-->
+        <p>Esto es otro parrafo dentro de un DIV</p><!--HIJO-->
+        <p>Esto es otro parrafo dentro de un DIV</p>
+        <span><p>Este es un nieto del div</p></span> <!--NIETO-->
+    </div>
+
+    <p>Este es un parrafo ubicado despues de un div por fuera</p>
+    <p>Este es un parrafo ubicado despues de un div por fuera</p>
+
+    <!--Selector hijo (>)-->
+    <h4>Selector hijo (>)</h4>
+
+    <p>Esto es un parrafo</p>
+
+    <div>
+        <p>Esto es otro parrafo dentro de un DIV</p>
+        <p>Esto es otro parrafo dentro de un DIV</p>
+        <span><p>Este es un nieto del div</p></span>
+    </div>
+
+    <p>Este es un parrafo ubicado despues de un div por fuera</p>
+    <p>Este es un parrafo ubicado despues de un div por fuera</p>
+
+    <!--Selector de HERMANOS ADYACENTES (+)-->
+    <h4>Selector de HERMANOS ADYACENTES (+)</h4>
+
+    <p>Esto es un parrafo</p>
+
+    <div>
+        <p>Esto es otro parrafo dentro de un DIV</p>
+        <p>Esto es otro parrafo dentro de un DIV</p>
+        <span><p>Este es un nieto del div</p></span>
+    </div>
+
+    <p>Este es un parrafo ubicado despues del primer div por fuera!!</p> <!--este se marca pq es el hermano-->
+    <p>Este es un parrafo ubicado despues del primer div por fuera</p>
+
+    <div>
+        <p>Esto es otro parrafo dentro de un DIV</p>
+        <p>Esto es otro parrafo dentro de un DIV</p>
+        <span><p>Este es un nieto del div</p></span>
+    </div>
+
+    <p>Este es un parrafo ubicado despues del segundo div por fuera!!</p> <!--este se marca pq es el hermano-->
+    <p>Este es un parrafo ubicado despues del segundo div por fuera</p>
+
+    <!--Selector GENERAL de HERMANOS ADYACENTES (~)-->
+    <h4>Selector GENERAL de HERMANOS ADYACENTES (~)</h4>
+
+    <p>Esto es un parrafo</p>
+
+    <div>
+        <p>Esto es otro parrafo dentro de un DIV</p>
+        <p>Esto es otro parrafo dentro de un DIV</p>
+        <span><p>Este es un nieto del div</p></span>
+    </div>
+
+    <p>Este es un parrafo ubicado despues del primer div por fuera!!</p> <!--este se va a marcar-->
+    <p>Este es un parrafo ubicado despues del primer div por fuera</p><!--este se va a marcar-->
+
+    <div>
+        <p>Esto es otro parrafo dentro de un DIV</p>
+        <p>Esto es otro parrafo dentro de un DIV</p>
+        <span><p>Este es un nieto del div</p></span>
+    </div>
+
+    <p>Este es un parrafo ubicado despues del segundo div por fuera!!</p> <!--este se va a marcar-->
+    <p>Este es un parrafo ubicado despues del segundo div por fuera</p><!--este se va a marcar-->
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
