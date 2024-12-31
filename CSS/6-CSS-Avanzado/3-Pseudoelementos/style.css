@@ -1,0 +1,41 @@
+/*  sintaxis
+
+selector::pseudoelemento{
+
+    propiedad: valor;
+}
+*/
+
+p::first-line{ /*Esto es solo para la primera linea del parrafo, si hago responsive solo la primera linea tiene el estilo*/
+    color:blueviolet;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p::first-letter{/*Esto es solo para la primera letra del parrafo*/
+    color:deeppink;
+    font-size: 50px;
+}
+
+p.primer-parrafo::first-letter{
+    color: red;
+    font-size: 100px;
+}
+
+p.segundo-parrafo::before{ /*BEFORE : AAAAAANTES de nuestro parrafo vamos con una imagen*/
+    content: url(assets/imgs/icono-google.png);
+}
+
+p.tercer-parrafo::after{/*AFTER : DESSSPUES de nuestro parrafo vamos con una imagen*/
+    content: url(assets/imgs/icono-google.png);
+}
+
+/*PSEUDO ELEMENTOS PARA LOS ITEMS DE LAS LISTAS ORDENADAS - DESORDENADAS*/
+li::marker{ /*esto es para los marcadores (items)*/
+    color: red;
+    font-size: large;
+}
+
+li::selection{ /*esto es para cuando seleccionar el texto en la web*/
+    background-color: aqua;
+    color: blueviolet;
+}
