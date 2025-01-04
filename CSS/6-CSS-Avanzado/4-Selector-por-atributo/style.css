@@ -1,0 +1,59 @@
+/*  sintaxis
+
+selector[atributo]{
+
+    propiedad: valor;
+}
+*/
+
+a[target]{
+    background-color: aqua;
+}
+
+a[target="_blank"]{
+    background-color:blueviolet;
+}
+
+[class~="css"]{
+    background-color:blue;
+    color: white;
+}
+
+[title*="gias"]{
+    background-color: chocolate;
+}
+
+input[type="text"]{
+    background-color: beige;
+}
+
+input[type="text"]:hover{
+    background-color: yellow;
+}
+
+input[type="number"]{
+    background-color: rgb(151, 78, 78);
+}
+
+input[type="email"]{
+    background-color: rgb(51, 97, 142);
+}
+
+input[type="date"]{
+    background-color: rgb(51, 122, 109);
+}
+
+input[type="number"]:hover{
+    background-color: rgb(151, 78, 78);
+    opacity: 0.8;
+}
+
+input[type="email"]:hover{
+    background-color: rgb(51, 97, 142);
+    opacity: 0.8;
+}
+
+input[type="date"]:hover{
+    background-color: rgb(51, 122, 109);
+    opacity: 0.8;
+}
