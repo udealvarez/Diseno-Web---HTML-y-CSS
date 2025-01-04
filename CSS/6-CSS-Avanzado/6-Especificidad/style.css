@@ -1,0 +1,11 @@
+.parrafo{
+    color: green;
+}
+
+#paragraph{         /*EL MAS ESPECIFICO ES EL ID POR QUE ES UNICO*/
+    color: blue;
+}
+
+p{
+   color: red !important; /*esta regla pisa todo por que es lo mas jerarquico - MALA PRACTICA*/
+}
