@@ -1,0 +1,70 @@
+.grid-container{
+    display: grid; /*de esta forma tenemos un contenedor que funciona como cuadricula*/
+    grid-template-columns: auto auto auto; /* AUTO te genera FR automaticos para cada columna - otra manera es 1fr 1 fr 2fr*/
+    background-color:rgb(29, 80, 80);
+    border: 2px groove black;
+    padding: 10px;
+    gap: 5px;  /*es el espacio entre filas y columnas*/
+    height: 400px;
+}
+
+.grid-item{ /* RECORDATORIO:        el PUNTO es para seleccionar CLASS en el html*/
+    background-color: aquamarine;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.item1{
+    grid-column-start: 1; /*Esto une cajas de la grilla de las columnas*/
+    grid-column-end: 3; /*queda excluida la columna 3, pero incluye la 1 y la 2*/
+}
+
+.item1{
+    grid-row-start: 1; /*Esto une cajas de la grilla de las filas*/
+    grid-row-end: 3;    /*queda excluida la fila 3, pero incluye la 1 y la 2*/
+}
+
+.grid-container2{
+    display: grid; 
+    grid-template-columns: auto auto auto; 
+    background-color:rgb(38, 22, 75);
+    border: 2px groove rgb(227, 210, 210);
+    padding: 10px;
+    gap: 5px;  
+    height: 400px;
+    justify-content: end;  /*STAR CENTER END nos permite ubicar la grilla donde querramos */
+                           /*SPACE- AROUND / BETWEEN / EVENLY separa las cajas de la grilla equitativamente */
+
+}
+
+.grid-item-2{ 
+    background-color: chocolate;
+    border: 1px solid rgb(227, 210, 210);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-container3{
+    display: grid; 
+    grid-template-columns: auto auto auto; 
+    background-color:rgb(75, 22, 22);
+    border: 2px groove rgb(227, 210, 210);
+    padding: 10px;
+    gap: 5px;  
+    height: 400px;
+    align-content: stretch; /*START CENTER END - permite poner las cajas de la grilla encimadas hacia arriba, abajo, centrado */
+                        /*SPACE- AROUND / BETWEEN / EVENLY separa las cajas de la grilla equitativamente */
+                        /*STRETCH*/
+    justify-content: stretch; /*SE PUEDEN COMBINAR, de esta manera queda la grilla centrada en la pantalla*/
+}
+
+.grid-item-3{ 
+    background-color: rgb(30, 210, 96);
+    border: 1px solid rgb(227, 210, 210);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
