@@ -1,0 +1,97 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: prueba;
+    animation-duration: 3s;
+    animation-delay: 2s;              /*solo en el comienzo*/
+    animation-iteration-count: 3;    /*la cantidad de repeticiones / si quiero que sea infinito pongo :INFINITE */
+    animation-direction: reverse;    /*ALTERNATE va y vuelve con los colores, empieza con 0.25.50.75.100.75.50.25.0*/
+
+    animation: prueba2 5s ease 2s infinite alternate; /*shorthand*/
+    animation: prueba3 5s ease 2s infinite alternate; /*shorthand*/
+}
+
+@keyframes prueba{
+    0%{
+        background-color: red;
+        height: 150px;
+        width: 150px;
+    }
+    25%{
+        background-color: green;
+        height: 100px;
+        width: 100px;
+    }
+    50%{
+        background-color: yellow;
+        height: 250px;
+        width: 250px;
+    }
+    75%{
+        background-color: blue;
+        height: 50px;
+        width: 50px;
+    }
+    100%{
+        background-color: red;
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@keyframes prueba2{
+    0%{
+        background-color:brown;
+        height: 150px;
+        width: 150px;
+    }
+    25%{
+        background-color: violet;
+        height: 100px;
+        width: 100px;
+    }
+    50%{
+        background-color:chocolate;
+        height: 250px;
+        width: 250px;
+    }
+    75%{
+        background-color: yellow;
+        height: 50px;
+        width: 50px;
+    }
+    100%{
+        background-color:cyan;
+        height: 150px;
+        width: 150px;
+    }
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 3px;
+    color:  white;
+    font-size: 20px;
+}
+
+.curva1{ animation: prueba3 5s linear 2s infinite alternate; }
+
+.curva2{ animation: prueba3 5s ease 2s infinite alternate; }
+
+.curva3{ animation: prueba3 5s ease-in 2s infinite alternate; }
+
+.curva4{ animation: prueba3 5s ease-in-out 2s infinite alternate; }
+
+.curva5{ animation: prueba3 5s ease-out 2s infinite alternate; }
+
+@keyframes prueba3{
+    from{
+        width: 100px;
+    }
+    to{
+        width: 200px;
+    }
+}
