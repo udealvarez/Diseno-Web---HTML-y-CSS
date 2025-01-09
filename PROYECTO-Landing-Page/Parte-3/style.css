@@ -1,0 +1,65 @@
+ /* h1{
+    font-family: 'Inconsolata', monospace;
+  font-family: 'Roboto Mono', monospace;        tiene que ser solo una fuente 
+}*/
+
+/*  NORMALIZACION   */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /*Esto hace que el padding y el border no afecten al ancho y alto del elemento */
+    font-family: 'Inconsolata', monospace;
+    list-style: none; /*Quitar los puntos e decoracion de las listas*/
+    text-decoration: none; /*Esto quita el subrayado de los enlaces*/
+    color: white;    
+}
+
+body{
+    background-color: black; /*TO DO: borrar cuando tengamos el fondo final*/
+}
+
+header{
+    position: fixed; /* Esto hace el header quede FIJO en la parte superior de la web */
+    right: 0;
+    top: 0;
+    z-index: 100; /* Esto hace que el header SE MUESTRE por encima*/
+    width: 100%; /* NOTA: ACA ES CON % */
+    display: flex;  /* Esto hara que los elementos de pongan en linea*/
+    align-items: center; /* Centra Verticalmente */
+    justify-content: space-between; /* Hace que los elementos se separen */
+    padding: 15px 3%;
+    background-color: transparent;
+}
+
+.logo{
+    font-size: 30px; /* Tamaño de letra */
+    font-weight: 800; /* Este es el grueso de la letra */
+}
+
+.navlist{ 
+    display: flex;  /* Esto sirve para que los elementos de la lista UL se pongan en linea */
+}
+
+.navlist a{
+    margin-left: 60px; /* Esto es para separar las palabras */
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2PX solid transparent; /* Este es un subrayado transparente */
+    transition: all .5 ease;    /* Esto es para animar todas las caracteristicas del .navlist a */
+}
+
+.navlist a:hover{ 
+    border-bottom: 2PX solid white; /* Este es un subrayado blanco que aparece cuando esatmos por encima con el mouse */
+}
+
+#menu-icon{
+    display: none; /* Esto lo pongo en NONE solo para que se vea cuando la pagina esta colampasa de forma horizontal */
+}
+
+#menu-toggle{
+    display: none; /* Esto es para que no sea vea el checkbox */
+}
+
+.menu-icon-action{
+    display: none; /* Para que no se le pueda hacer click */
+}
